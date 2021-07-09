@@ -24,11 +24,20 @@ body {
 
 .nav {
     display: none;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    transition-delay: 0.10s;
+    transform: translateX(30px);
+}
+
+.ul {
+    z-index: 1;
+    background: radial-gradient(circle at 10px 122px, rgb(207, 94, 53) 33%, white 0%);
+    width: 275px;
 }
 
 .ul li {
     list-style: none;
-    text-align: center;
 }
 
 .ul a {
@@ -40,8 +49,12 @@ body {
 }
 
 .ul a:hover {
-    background-color: rgb(207, 94, 53);
+    font-weight: bolder;
     color: white;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    transition-delay: 0.10s;
+    transform: translateX(15px);
 }
 
 .img {
@@ -83,4 +96,10 @@ footer a {
 
 footer a:hover {
     color: white;
+}
+
+.d1 {
+    transition-timing-function: ease;
+    transition-duration: 2s;
+    color: red;
 }
