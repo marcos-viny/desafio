@@ -1,8 +1,7 @@
-const btnMobile = document.getElementsByClassName('.a1');
-
-function toggleMenu() {
-    const nav = document.getElementsByClassName('.nav');
-    nav.classList.toggle('active');
-}
-
-btnMobile.addEvetListener('click', toggleMenu);
+(function() {
+    var $html = document.querySelector('nav');
+    var $btn = document.querySelector('.a1');
+    $btn.addEventListener('click', function() {
+        $html.classList.toggle('nav');
+    })
+})()
