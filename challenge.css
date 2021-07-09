@@ -6,6 +6,7 @@ body {
 }
 
 .a1 {
+    text-decoration: none;
     padding: 8px 0px;
     display: block;
     color: black;
@@ -19,6 +20,10 @@ body {
 
 .a1:hover {
     color: rgb(207, 94, 53);
+}
+
+.nav {
+    display: none;
 }
 
 .ul li {
